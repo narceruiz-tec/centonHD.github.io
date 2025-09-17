@@ -1,0 +1,48 @@
+div[type="poem"] > titlestmt {
+    display: block;
+    font-size: 14pt;    
+    font-family: 'Arial';
+}
+
+body {
+    font-size: 30pt;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 8cm;
+    }
+    
+tei-abbr {
+    text-decoration: line-through;
+    color: green;
+}
+
+tei-orig {
+    text-decoration: underline;
+    color: blue;
+    display: none;
+}
+
+body {
+    counter-reset: verso;
+}
+
+tei-l {
+    display: block;
+    counter-increment: verso;
+}
+
+tei-l::before {
+    content: counter(verso) ".";
+    color: crimson;
+    text-align: left;
+    text-size-adjust: smaller;
+    margin-right: 0.5em;
+}
+
+tei-caesura::after {
+    content: " * ";
+    color: aquamarine;
+}
+
+tei-hi {
+    background-color: yellow;
+}

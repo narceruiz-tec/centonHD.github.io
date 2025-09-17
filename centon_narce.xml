@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Centón 1682</title>
+            <author>Alonso Ramírez de Vargas</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Ejercicio documento codificado por Narce Ruiz</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>IJorge Gutiérrez Reyna, "Fiesta y poesía: los certámenes en el México virreinal"</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <lg>
+            <l n="1">
+              <seg>
+                 Con naval pompa
+              </seg>
+               <caesura></caesura>
+               <seg>
+                  de inquieto lino
+               </seg>
+            </l>
+            
+            
+            <l n="2">
+               <seg>
+                  (Velero
+                  <choice>
+                     <abbr>bosq</abbr>
+                     <expan>bosque</expan>
+                  </choice>
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  <choice>
+                     <abbr>aū</abbr>
+                     <expan>aún</expan>
+                  </choice>
+                  <choice>
+                     <abbr>cotra</abbr>
+                     <expan>contra</expan>
+                  </choice>
+                  el
+                  <choice>
+                     <abbr>vieto</abbr>
+                     <expan>viento</expan>
+                  </choice>
+                  armado)
+               </seg>
+            </l>
+            
+            
+            <l n="3">
+               <seg>
+                  La proa diligente
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  en poca arena
+               </seg>
+            </l>
+            
+            
+            <l n="4">
+               <seg>
+                  No solo 
+                  <choice>
+                     <orig>dirigiò</orig>
+                     <reg>dirigió</reg>
+                  </choice>
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  descaminado
+               </seg>
+            </l>
+            
+            
+            <l n="5">
+               <seg>
+                 El
+                 <persName>
+                 <choice>
+                    <orig>Principe</orig>
+                    <reg>Príncipe</reg>
+                 </choice>
+                    Troyano
+                 </persName>
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  peregrino;
+               </seg>
+               
+            </l>
+            <l n="6">
+               <seg>
+                 Mas
+                 <choice>
+                    <orig>redujola</orig>
+                    <reg>redújola</reg>
+                 </choice>
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  entre
+                  <choice>
+                     <orig>vna,</orig>
+                     <reg>una,</reg>
+                  </choice>
+                  y otra almena
+               </seg>
+            </l>
+            
+            
+            <l n="7">
+               <seg>
+                  <choice>
+                     <orig>Tocò</orig>
+                     <reg>Tocó</reg>
+                  </choice>
+                  las playas, mas
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  fue de su pena
+               </seg>
+               
+            </l>
+            <l n="8">
+               <seg>
+                  <choice>
+                     <orig>Termino</orig>
+                     <reg>Terminó</reg>
+                  </choice>
+                  luminoso:
+               </seg>
+            </l>
+            
+            
+            <l n="9">
+               <seg>
+                  Que fuego el espirando
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  afectuoso,
+               </seg>
+               
+               
+            </l>
+            <l n="10">
+               <seg>
+                  <hi>Delos</hi>,
+                  campos apenas
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  ha ofrecido
+               </seg>
+               
+            </l>
+            <l n="11">
+               <seg>
+                  Do
+                  <choice>
+                     <orig>hallò</orig>
+                     <reg>halló</reg>
+                  </choice>
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  agradecidamente;
+               </seg>
+               
+            </l>
+            <l n="12">
+               <seg>
+                  <choice>
+                     <orig>Quando</orig>
+                     <reg>Cuando</reg>
+                  </choice>
+                  de amor
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  admira reverente
+               </seg>
+               
+            </l>
+            <l n="13">
+               <seg>
+                  <choice>
+                     <orig>Deydad</orig>
+                     <reg>Deidad</reg>
+                  </choice>
+                  , que en
+                  <choice>
+                     <orig>Isla</orig>
+                     <reg>isla</reg>
+                  </choice>
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  se venera culta
+               </seg>
+               
+            </l>
+            <l n="14">
+               <seg>
+                  <choice>
+                     <orig>Triumphando</orig>
+                     <reg>Trinfando</reg>
+                  </choice>
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  <choice>
+                     <orig>de el</orig>
+                     <reg>del</reg>
+                  </choice>
+                  agua, que la oculta
+               </seg>
+               
+            </l>
+            <l n="15">
+               <seg>
+                  <choice>
+                     <orig>Aun</orig>
+                     <reg>Aún</reg>
+                  </choice>
+                  contra el
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  <name>
+                     <choice>
+                     <orig>Orion</orig>
+                     <reg>Orión</reg>
+                     </choice>
+                  </name>
+                  humedecido;
+               </seg>
+               
+            </l>
+            <l n="16">
+               <seg>
+                  Que ser quiso en
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  el mar fin
+                  <choice>
+                     <orig>cobardia</orig>
+                     <reg>cobardía</reg>
+                  </choice>
+               </seg>
+               
+            </l>
+            <l n="17">
+               <seg>
+                  <hi>Al Phrygio</hi>,
+                  muro,
+               </seg>
+               <caesura></caesura>
+               <seg>
+                  y resistencia al
+                  <choice>
+                     <orig>dia</orig>
+                     <reg>día</reg>
+                  </choice>
+               </seg>  
+            </l>
+            
+         </lg>
+      </body>
+  </text>
+</TEI>
